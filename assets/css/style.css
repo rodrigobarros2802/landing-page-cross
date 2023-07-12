@@ -25,8 +25,15 @@ header .logo {
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
+    color: #fff;
 }
 
 header .logo span {
     color: green;
+}
+
+
+
+.banner {
+    background: #111;
 }
