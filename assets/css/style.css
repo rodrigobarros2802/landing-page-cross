@@ -54,6 +54,7 @@ header .logo span {
 .banner .contentBox {
     position: absolute;
     max-width: 600px;
+    min-height: 100vh;
     z-index: 2;
 }
 
@@ -62,4 +63,10 @@ header .logo span {
     font-weight: 700;
     color: #fff;
     letter-spacing: 2px;
+}
+
+.banner .contentBox p {
+    font-size: 1.2;
+    font-weight: 500;
+    color: #fff;
 }
