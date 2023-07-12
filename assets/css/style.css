@@ -32,8 +32,16 @@ header .logo span {
     color: green;
 }
 
+.toggle {
+    max-width: 60px;
+    cursor: pointer;
+}
 
+.toggle img {
+    width: 100%;
+}
 
 .banner {
+    
     background: #111;
 }
