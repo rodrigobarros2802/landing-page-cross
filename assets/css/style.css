@@ -16,6 +16,7 @@ header {
     align-items: center;
     width: 100%;
     padding: 40px 100px;
+    z-index: 10000;
 }
 
 header .logo {
@@ -42,6 +43,23 @@ header .logo span {
 }
 
 .banner {
-    
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     background: #111;
+    padding: 0 100px;
+}
+
+.banner .contentBox {
+    position: absolute;
+    max-width: 600px;
+    z-index: 2;
+}
+
+.banner .contentBox h2 {
+    font-size: 3em;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
 }
