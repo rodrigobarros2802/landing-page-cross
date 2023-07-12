@@ -15,4 +15,14 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 40px 100px;
+}
+
+header .logo {
+    position: relative;
+    font-size: 2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
 }
