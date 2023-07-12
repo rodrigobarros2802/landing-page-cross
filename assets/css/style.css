@@ -26,3 +26,7 @@ header .logo {
     text-decoration: none;
     letter-spacing: 2px;
 }
+
+header .logo span {
+    color: green;
+}
