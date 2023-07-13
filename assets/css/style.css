@@ -30,7 +30,7 @@ header .logo {
 }
 
 header .logo span {
-    color: #38d530;
+    color: #37d72f;
 }
 
 .toggle {
@@ -44,7 +44,7 @@ header .logo span {
 
 .banner {
     position: relative;
-    max-width: 100%;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: flex-start;
@@ -66,15 +66,15 @@ header .logo span {
 
 .banner::before {
     content: '';
-    right: 169px;
+    right: 0;
     top: 0;
     position: absolute;
     height: 100%;
     width: 400px;
-    background: #38d530;
-    transform: skewX(-20deg);
+    background: #37d72f;
+    transform-origin: top;
+    transform: skewX(-25deg);
     z-index: 2;
-    overflow: hidden;
 }
 
 .banner .contentBox {
@@ -150,4 +150,15 @@ header .logo span {
 .sci li a img {
     transform: scale(0.5);
     filter: invert(1);
+}
+
+@media (max-width: 991px) {
+    header {
+        padding: 15px 50px;
+    }
+
+    .banner {
+        padding: 150px 50px 0;
+        flex-direction: column;
+    }
 }
