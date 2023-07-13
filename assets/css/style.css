@@ -103,5 +103,21 @@ header .logo span {
 }
 
 .sci {
-    
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li a {
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
 }
