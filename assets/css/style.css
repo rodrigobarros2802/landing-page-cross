@@ -79,7 +79,7 @@ header .logo span {
 
 .banner .contentBox {
     position: relative;
-    max-width: 700px;
+    max-width: 500px;
     z-index: 2;
 }
 
@@ -157,6 +157,23 @@ header .logo span {
 
     .banner {
         padding: 150px 50px 0;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .banner::before {
+        width: 300px;
+        transform: skewX(-25deg) translateX(50px);
+    }
+
+    .banner .bannerContent {
+        max-width: 100%;
+    }
+
+    .sci {
+        position: absolute;
+        left: initial;
+        right: 20px;
         flex-direction: column;
     }
 }
