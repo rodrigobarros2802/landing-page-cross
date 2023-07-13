@@ -53,6 +53,18 @@ header .logo span {
     padding: 0 100px;
 }
 
+.banner::before {
+    content: '';
+    right: 169px;
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 400px;
+    background: #38d530;
+    transform: skewX(-20deg);
+    z-index: 2;
+}
+
 .banner .contentBox {
     position: relative;
     max-width: 600px;
