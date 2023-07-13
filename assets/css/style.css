@@ -53,6 +53,17 @@ header .logo span {
     padding: 0 100px;
 }
 
+.banner video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.20;
+    pointer-events: none;
+}
+
 .banner::before {
     content: '';
     right: 169px;
@@ -63,6 +74,7 @@ header .logo span {
     background: #38d530;
     transform: skewX(-20deg);
     z-index: 2;
+    overflow: hidden;
 }
 
 .banner .contentBox {
