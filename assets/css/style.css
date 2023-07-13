@@ -121,3 +121,8 @@ header .logo span {
     align-items: center;
     margin-right: 15px;
 }
+
+.sci li a img {
+    transform: scale(0.5);
+    filter: invert(1);
+}
