@@ -79,7 +79,7 @@ header .logo span {
 
 .banner .contentBox {
     position: relative;
-    max-width: 500px;
+    max-width: 600px;
     z-index: 2;
 }
 
@@ -90,10 +90,10 @@ header .logo span {
 }
 
 .banner .contentBox p {
-    font-size: 1.2;
+    font-size: 1.1em;
     font-weight: 500;
     color: #fff;
-    margin: 20px 0px 35px;
+    margin: 5px 0 25px;
 }
 
 .banner .contentBox a {
@@ -106,7 +106,7 @@ header .logo span {
     color: #111;
     background: #fff;
     font-weight: 700;
-    padding: 10px 25px;
+    padding: 15px 25px;
 }
 
 .banner .contentBoxImg {
@@ -120,9 +120,9 @@ header .logo span {
 }
 
 .banner .contentBoxImg img {
-    height: 90%;
     position: absolute;
     bottom: 0;
+    height: 90%;
     z-index: 1000;
 }
 
@@ -167,7 +167,7 @@ header .logo span {
     }
 
     .banner .bannerContent {
-        max-width: 100%;
+        width: 100%;
     }
 
     .sci {
