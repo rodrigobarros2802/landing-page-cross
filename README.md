@@ -16,7 +16,7 @@
 * [:technologist: Autor]()
 
 <h1 align="center">:chart_with_upwards_trend: Proposta</h1>
-<h3 align="center"></h3>
+<h3 align="center">Aplicar alguns conceitos em CSS que não conhecia antes como exemplo o seletor pseudo-elemento ::before</h3>
 
 <h1 align="center">:trophy: Desafio</h1>
 <h3 align="center"></h3>
