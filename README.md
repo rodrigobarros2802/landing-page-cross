@@ -22,9 +22,9 @@
 <h3 align="center"></h3>
 
 <h1 align="center">:hammer_and_wrench: Tecnologias</h1>
-<h3 align="center"></h3>
-<h3 align="center"></h3>
-<h3 align="center"></h3>
+<h3 align="center">Java Script</h3>
+<h3 align="center">CSS3</h3>
+<h3 align="center">HTML5</h3>
 
 <h1 align="center">:dart: Objetivo</h1>
 <h3 align="center"></h3>
