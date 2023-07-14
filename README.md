@@ -19,7 +19,7 @@
 <h3 align="center">Aplicar alguns conceitos em CSS que não conhecia antes como exemplo o seletor pseudo-elemento ::before</h3>
 
 <h1 align="center">:trophy: Desafio</h1>
-<h3 align="center"></h3>
+<h3 align="center">Concluir 1 (um) projeto por dia.</h3>
 
 <h1 align="center">:hammer_and_wrench: Tecnologias</h1>
 <h3 align="center">Java Script</h3>
